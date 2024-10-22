@@ -1,0 +1,102 @@
+body{
+    cursor: url("pencil.png");
+}
+
+
+
+.form-signup {
+     text-align: center;
+}
+
+
+
+.signup-headder{
+    margin: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.containerone{
+    margin: -10px;
+    max-height: 2500px;
+    max-width: 1362px;
+    background-image: url(./bgs2.jpg);
+  
+    height: 750px ;
+    background-size: 1500px 800px;
+}
+
+.logo-signup{
+    height: 30px;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.signup-chatify{
+    color: rgb(56, 56, 56);
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.registration{
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.input-signup{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.signup-name{
+    padding-right: 6px;
+    text-align: left;
+}
+
+.sign-input{
+    height: 36px;
+    width: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.30);
+    border: transparent;
+}
+
+::placeholder{
+    padding-left: 6px;
+    color: rgb(150, 150, 150);
+
+}
+
+.signup-button{
+    padding: 8px 90px 8px 90px;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,83 @@
+.fixed-icon {
+    position: fixed;
+    bottom: 40px; /* Adjust this value to place the icon where you want vertically */
+    right: 40px; /* Adjust this value to place the icon where you want horizontally */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.fixed-icon img {
+    width: 50px; /* Adjust the size of the icon */
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.chat-container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.chat-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.chat-messages {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+}
+.chat-input-container {
+    display: flex;
+    border-top: 1px solid #dddddd;
+}
+.chat-input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+.chat-send {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+.chat-send:hover {
+    background-color: #45a049;
+}
+.message {
+    margin-bottom: 20px;
+}
+.message.sent {
+    text-align: right;
+}
+.message.received {
+    text-align: left;
+}
+.message p {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+.message.sent p {
+    background-color: #4CAF50;
+    color: white;
+}
+.message.received p {
+    background-color: #f1f1f1;
+    color: #333333;
+}
+
+.chat-bot-eit{
+    
+}
